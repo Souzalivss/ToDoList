@@ -24,9 +24,8 @@ function App() {
     toast.success("Task cadastrada com sucesso");
 
     }
-
-    
-  }
+   
+    }
 
   function deleteTask(DeleteTaskById: number): void {
     setTodoList(todoList.filter((taskName) => taskName.id !== DeleteTaskById));

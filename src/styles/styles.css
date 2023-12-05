@@ -10,7 +10,7 @@
 
 header h2 {
     font-weight: 600;
-    color: #84878A;
+    color: #dd1515;
     font-size: 30px;
 
     display: flex;
@@ -23,14 +23,14 @@ input {
     margin-bottom: 25px;
     padding-left: 20px;
 
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 10px rgba(97, 43, 43, 0.2);
     border-radius: 5px;
 }
 
 .input::-webkit-input-placeholder  { 
     font-size: 12px;
     font-weight: 500;
-    color: #B6B6B7;
+    color: #8b8989;
 }
 
 .btn-header, .input {
@@ -39,11 +39,11 @@ input {
 }
 
 .btn-header {
-    background-color: #80CB27;
+    background-color: #210797;
     font-size: 16px;
     font-weight: 700;
 
-    color: #fff;
+    color: #dd1515;
     border-radius: 5px;
     cursor: pointer;
 }
